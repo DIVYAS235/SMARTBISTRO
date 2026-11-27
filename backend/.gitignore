@@ -1,0 +1,29 @@
+# Python environment
+/.venv
+/venv
+/env
+/__pycache__
+/build
+/dist
+/.eggs
+*.egg-info
+
+# Model weights (Very important—they are too big for GitHub)
+/easyocr/model
+/easyocr/user_network
+/data
+*.pth
+*.pt
+
+# Environment variables (DO NOT PUSH YOUR KEYS)
+.env
+.env.local
+.env.*
+
+# Logs
+logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
